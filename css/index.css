@@ -1,0 +1,14 @@
+/* ESTILOS PARA LA PAGINA DE INICIO*/
+
+/*video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20%;
+    z-index: -1;
+  } */
+
+.movie_index img {
+    height: auto;
+    width: 200px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="img/Pochocleras_pelis_logo-01.png" alt="logo_pochocleras">
+            <a href="index.html" class="nav">Inicio</a>
+            <a href="peliculas.html" class="nav">Películas</a>
+            <a href="contact.html" class="nav">Contacto</a>
+            <a href="login.html" class="nav">Iniciar Sesión</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h2>Registro de Usuario</h2>
+        <form action="">
+            <div>
+                <div>
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" size="40" required="">
+                </div>
+                <br>
+                <div>
+                    <label for="nombre">Apellido:</label>
+                    <input type="text" size="40" required="">
+                </div>
+                <br>
+                <div>
+                  <label for="correo">Correo electrónico: (*)</label>
+                  <input type="email" placeholder="usuario@dominio.com" size="40" title="Escribe tu correo electrónico habitual."
+                    required="">
+                </div>
+                <br>
+                <div>
+                <label for="stats">¿De 0 a 10, cuántas peliculas ves a la semana?</label>
+                <input type="range" max="10" min="0" value="0" step="1" title="Necesitamos saber esta respuesta para las estadísticas" name="asiduo">
+                </div>
+                <br>
+                <div>
+                    <label>Selecciona tu categoría favorita:</label>
+                <br>
+                <input type="checkbox" name="stats"  checked="">
+                <label for="op1">Acción</label>
+                <br>
+                <input type="checkbox" name="stats"  checked="">
+                <label for="op1">Comedia</label>
+                <br>
+                <input type="checkbox" name="stats"  checked="">
+                <label for="op1">Animadas</label>
+                <br>
+                <input type="checkbox" name="stats"  checked="">
+                <label for="op1">Románticas</label>
+                </div>
+                <br>  
+                <div>
+                    <label for="nombre" >Usuario:</label>
+                    <input type="text" size="40" required="" title="Escribe tu nombre de usuario con el cual inciarás sesión">
+                </div>
+                <br>
+                <div>
+                    <label for="psw">Contraseña: (*)</label>
+                    <input type="password" size="7" id="psw" title="Escribe una contraseña" name="password" required="">
+                </div>
+                <br> 
+                <div>
+                    <input type="submit" value="Enviar los datos">
+                </div>
+                
+            </div> 
+        </form>
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+<hr>
+        <a href="http://instagram.com/username" target="_blank"><img style="margin:1px" src="ico/social/insta.png"width="25" height="25" alt="Instagram"></a>
+        <a href="http://facebook.com/username" target="_blank"><img style="margin: 1px" src="ico/social/face.png" width="25" height="25" alt="Facebook"></a>
+        <a href="http://youtube.com/user/username" target="_blank"><img style="margin:1px" src="ico/social/youtu.png" width="25" height="25" alt="YouTube"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img style="margin:1px" src="ico/social/twit.png" width="25" height="25" alt="Twiter"></a>
+        <h6>All rights reserved 2024 - Pochocleras Pelis</h6>
+    </footer>
+</body>
+</html>
